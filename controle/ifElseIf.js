@@ -10,13 +10,13 @@ const imprimirResultado = function(nota){
         console.log('Aprovado!')
     }
     else if(nota.entre(3,6.99)) {
-        console.log('Fará a prova final!')
+        console.log('Recuperação')
     }
     else if (nota.entre(0,2.99)){
         console.log("Reprovado")
     }
     else{
-        console.log("Reprovado")
+        console.log("Nota inválida")
     }
 }
 
