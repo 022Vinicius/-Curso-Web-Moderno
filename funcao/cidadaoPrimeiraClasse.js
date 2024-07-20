@@ -22,3 +22,13 @@ function run(fun){
 }
 
 run(function(){console.log('Exec')})
+
+// uma função pode retornar/conter uma função
+
+function soma(a,b){
+    return function(c){
+        console.log(a +b + c)
+    }
+}
+
+soma(1,2)(3)
