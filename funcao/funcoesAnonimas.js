@@ -13,3 +13,11 @@ imprimirResultado(3,4, function(x,y){
 })
 
 imprimirResultado(3,4,(x,y) => x * y)
+
+const pessoa = {
+    falar: function(){                   //poderia  ser falar(){console.log('Opa')}
+        console.log('Opa')
+    }
+}
+
+pessoa.falar()
