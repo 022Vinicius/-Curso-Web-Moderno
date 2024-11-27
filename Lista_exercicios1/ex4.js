@@ -5,3 +5,4 @@ divisoes = (dividendo,divisor) => {
 divisoes(10,2)
 divisoes(1,1)
 divisoes(9,8)
+
